@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Мягкий блокировщик рекламы",
   "short_name": "Soft ad block",
-  "version": "1.0",
+  "version": "1.1",
 
   "author": "Boolat Kamalov",
   "homepage_url": "https://github.com/800147/soft-ad-block",
