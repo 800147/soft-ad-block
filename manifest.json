@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Мягкий блокировщик рекламы",
+  "short_name": "Soft ad block",
+  "version": "1.0",
+
+  "author": "Boolat Kamalov",
+  "homepage_url": "https://github.com/800147/soft-ad-block",
+  "description": "Скрывает содержимое рекламы на странице, но оставляет указание на то, что реклама есть. Удобно для скриншотов и стримов, когда надо показать, как выглядит страница со всей рекламой, но не хочется распространять рекламу, попавшую в кадр",
+
+  "icons": {
+    "32": "icon-32.png",
+    "64": "icon-64.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["style.css"]
+    }
+  ]
+}
