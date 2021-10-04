@@ -20,7 +20,7 @@ body:lang(ua) {
 
 [data-google-container-id],
 [data-campaign-oid],
-a[href*="//ads.adfox.ru"],
+a[href*="//ads.adfox.ru/"] > *,
 a[href*="//all-ti-cod.com/"],
 a[href*="//srv.carbonads.net/"],
 a[href*="//srv.buysellads.com/"],
@@ -28,8 +28,8 @@ a[href*="//srv.buysellads.com/"],
 iframe:not([src]):not([srcdoc]),
 iframe[src*="//dsp-rambler.ru"],
 iframe[src*="//go.rcvlink.com/"],
-img[src*=".adocean.pl/"],
-*:not(yatag) > yatag > * > * {
+iframe[src*=".adhigh.net/"],
+[src*=".adocean.pl/"] {
     filter: blur(32px);
     -webkit-clip-path: view-box;
     clip-path: view-box;
