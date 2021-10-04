@@ -1,7 +1,4 @@
-# Scroll Figma
-Firefox extension that fixes this issue:
-https://spectrum.chat/figma/feature-requests/zooming-speed-with-ctrl-mouse-scroll-on-firefox-differs-from-googles-chrome~250fac37-73e9-4319-b38a-297bf4db5843
+# Soft Ad Block
+Browser extension that blurs advertisement on the page.
 
-It makes scroll in linux faster for figma.com site.
-
-Extension link: https://addons.mozilla.org/ru/firefox/addon/scroll-figma/
+Firefox extension: https://addons.mozilla.org/ru/firefox/addon/%D0%BC%D1%8F%D0%B3%D0%BA%D0%B8%D0%B9-%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D1%89%D0%B8%D0%BA-%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D1%8B/efox/addon/scroll-figma/
