@@ -1,15 +1,22 @@
 [data-google-container-id],
 [data-campaign-oid],
 a[href*="//ads.adfox.ru/"] > *,
+a[href*="//4pda.to/ad/"] > *,
 a[href*="//all-ti-cod.com/"],
 a[href*="//srv.carbonads.net/"],
 a[href*="//srv.buysellads.com/"],
 [id^="yandex_rtb"],
+[id^="yandex_ad_R"],
 iframe[src*="//dsp-rambler.ru"],
 iframe[src*="//go.rcvlink.com/"],
 iframe[src*=".adhigh.net/"],
+[src*=".nativeroll.tv/"],
 [id="pljsvpaid"],
 [src*=".adocean.pl/"],
+[src*="//avatars.mds.yandex.net/get-adfox-content/"],
+[style*="//avatars.mds.yandex.net/get-adfox-content/"],
+.adv_inside,
+yatag:not(yatag yatag),
 .gnezdo_main_block > .gnezdo_block_container > .gnezdo_block {
     filter: blur(32px);
     -webkit-clip-path: view-box;
@@ -26,6 +33,7 @@ iframe[src*=".adhigh.net/"],
 [style*="//tpc.googlesyndication.com/"]::before,
 [style*="//ixbt.online/banners/"]::before,
 [href*="//www.ixbt.com/cgi-bin/click_i.cgi"]::before,
+[href*="//ads.adfox.ru/"]:empty::before,
 body.body_branding::before {
   position: absolute;
   width: 100%;
