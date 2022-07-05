@@ -22,6 +22,7 @@ article a[href*="//beap.gemini.yahoo.com/"] ~ *,
 [src*="//imasdk.googleapis.com/"],
 [src*="//avatars.mds.yandex.net/get-adfox-content/"],
 [style*="//avatars.mds.yandex.net/get-adfox-content/"],
+[data-testid="left-impression-pixel"] + div > article[data-testid="tweet"],
 .adv_inside,
 yatag:not(yatag yatag),
 .gnezdo_main_block > .gnezdo_block_container > .gnezdo_block {
