@@ -1,4 +1,3 @@
 # Soft Ad Block
-Browser extension that blurs advertisement on the page.
 
-Firefox extension: https://addons.mozilla.org/ru/firefox/addon/soft-ad-block/
+https://800147.github.io/soft-ad-block/
