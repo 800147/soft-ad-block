@@ -22,19 +22,19 @@ article a[href*="//beap.gemini.yahoo.com/"] ~ *,
 [src*="//imasdk.googleapis.com/"],
 [src*="//avatars.mds.yandex.net/get-adfox-content/"],
 [style*="//avatars.mds.yandex.net/get-adfox-content/"],
-[data-testid="left-impression-pixel"] + div > article[data-testid="tweet"],
+article[data-testid="tweet"]:has(div+div>div>div>div[data-testid="caret"]),
 .adv_inside,
 yatag:not(yatag yatag),
 .gnezdo_main_block > .gnezdo_block_container > .gnezdo_block {
-    filter: blur(32px);
-    -webkit-clip-path: view-box;
-    clip-path: view-box;
-    -webkit-mask-image: var(--soft-ad-block-mask-image);
-    mask-image: var(--soft-ad-block-mask-image);
-    -webkit-mask-size: var(--soft-ad-block-mask-size);
-    mask-size: var(--soft-ad-block-mask-size);
-    -webkit-mask-position: center;
-    mask-position: center;
+  filter: blur(32px);
+  -webkit-clip-path: view-box;
+  clip-path: view-box;
+  -webkit-mask-image: var(--soft-ad-block-mask-image);
+  mask-image: var(--soft-ad-block-mask-image);
+  -webkit-mask-size: var(--soft-ad-block-mask-size);
+  mask-size: var(--soft-ad-block-mask-size);
+  -webkit-mask-position: center;
+  mask-position: center;
 }
 
 [style*="//3dnews.ru/assets/external/var/ad"]::before,
@@ -46,7 +46,7 @@ body.body_branding::before {
   position: absolute;
   width: 100%;
   height: 100%;
-  content: '';
+  content: "";
   display: block;
   top: 0;
   backdrop-filter: blur(32px);
@@ -62,7 +62,7 @@ body {
   --soft-ad-block-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3Cdefs%3E%3Cmask id='mask'%3E%3Crect x='0' y='0' width='100%25' height='100%25' fill='%23ffffff' /%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle'%0Afill='%23aaaaaa' font-family='sans-serif' font-size='22px' font-weight='bold'%3EAdvertisement%3C/text%3E%3C/mask%3E%3C/defs%3E%3Crect x='0' y='0' width='100%25' height='100%25' mask='url(%23mask)' /%3E%3C/svg%3E");
   --soft-ad-block-bg-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle'%0Afill='%23ffffff' font-family='sans-serif' font-size='22px' font-weight='bold' opacity='0.3'%3EAdvertisement%3C/text%3E%3C/svg%3E");
   --soft-ad-block-mask-size: 220px 80px;
-  --soft-ad-block-bg-color: none
+  --soft-ad-block-bg-color: none;
 }
 
 body:lang(ru),

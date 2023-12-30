@@ -1,23 +1,21 @@
 {
   "manifest_version": 2,
   "name": "Soft ad block",
-  "version": "1.4",
+  "version": "1.5",
   "description": "Blurs advertisement on the page",
   "icons": {
     "32": "icon-32.png",
+    "48": "icon-48.png",
     "64": "icon-64.png",
+    "96": "icon-96.png",
     "128": "icon-128.png"
   },
   "author": "Boolat Kamalov",
-  "homepage_url": "https://github.com/800147/soft-ad-block",
+  "homepage_url": "https://800147.github.io/soft-ad-block/",
   "content_scripts": [
     {
-      "matches": [
-        "<all_urls>"
-      ],
-      "css": [
-        "style.css"
-      ]
+      "matches": ["<all_urls>"],
+      "css": ["style.css"]
     }
   ]
 }
