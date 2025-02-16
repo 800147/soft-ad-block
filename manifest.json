@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Soft ad block",
-  "version": "1.9",
+  "version": "1.10",
   "description": "Blurs advertisement on the page",
   "icons": {
     "32": "icon-32.png",
