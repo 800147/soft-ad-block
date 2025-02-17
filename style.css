@@ -1,4 +1,5 @@
 ytd-rich-item-renderer:has(ytd-ad-slot-renderer),
+ytm-promoted-video-renderer,
 .ytd-video-preview:has(a:is([aria-label^="Рекламное объявление – "], [aria-label^="Ad - "])),
 [itemtype="https://schema.org/WPAdBlock"],
 [data-google-container-id],
