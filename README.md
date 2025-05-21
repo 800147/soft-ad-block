@@ -1,6 +1,6 @@
 # Soft Ad Block
 
-![icon](src/icon.svg)
+![icon](./src/icon.svg)
 
 Soft Ad Block is a browser extension that blurs advertisements. All ads
 remain in their places, so we can see how many ads there are, but the
