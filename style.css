@@ -1,6 +1,19 @@
+/* Youtube */
 ytd-rich-item-renderer:has(ytd-ad-slot-renderer),
 ytm-promoted-video-renderer,
+ytd-video-masthead-ad-v3-renderer,
 .ytd-video-preview:has(a:is([aria-label^="Рекламное объявление – "], [aria-label^="Ad - "])),
+#player-ads,
+
+/* Яндекс поиск */
+.AdvRsya-Slot,
+
+/* https://symbl.cc */
+.ad-incontent-rectangle > a,
+.ad-billboard > a,
+.ad-desktop,
+
+.roxotAdContainer,
 [itemtype="https://schema.org/WPAdBlock"],
 [data-google-container-id],
 [data-campaign-oid],
